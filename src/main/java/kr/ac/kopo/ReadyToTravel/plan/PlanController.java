@@ -4,7 +4,6 @@ package kr.ac.kopo.ReadyToTravel.plan;
 import kr.ac.kopo.ReadyToTravel.dto.MemberDTO;
 import kr.ac.kopo.ReadyToTravel.dto.plan.PlanDTO;
 import kr.ac.kopo.ReadyToTravel.entity.plan.PlanEntity;
-import kr.ac.kopo.ReadyToTravel.group.GroupController;
 import kr.ac.kopo.ReadyToTravel.group.GroupService;
 import kr.ac.kopo.ReadyToTravel.member.MemberService;
 import kr.ac.kopo.ReadyToTravel.plan.travelType.TravelType;
