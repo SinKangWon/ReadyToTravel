@@ -93,7 +93,7 @@ public class MemberController {
             }
 
         } else {
-            return "redirect: " + path + "login";
+            return "redirect:" + path + "login";
         }
     }
     @GetMapping("/logout")

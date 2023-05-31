@@ -31,7 +31,7 @@ public class MailService {
         msgg+= "<div align='center' style='border:1px solid black; font-family:verdana';>";
         msgg+= "<h3 style='color:red;'>인증 만료 시간 (5분)</h3>";
         msgg+= "<br>";
-        msgg+= "<p>아래는 초기화된 비밀번호 입니다</p>";
+        msgg+= "<p>아래는 이메일 인증 보안코드 입니다</p>";
         msgg+= "<p>" + code + "</p>";
         msgg+= "<br>";
         msgg+= "</div>";
@@ -53,7 +53,7 @@ public class MailService {
         msgg+= "<div align='center' style='border:1px solid black; font-family:verdana';>";
         msgg+= "<h3 style='color:red;'>인증 만료 시간 (5분)</h3>";
         msgg+= "<br>";
-        msgg+= "<p>아래는 이메일 인증 보안코드 입니다</p>";
+        msgg+= "<p>아래는 초기화된 비밀번호 입니다</p>";
         msgg+= "<p>" + password + "</p>";
         msgg+= "<br/>";
         msgg+= "</div>";
